@@ -1,0 +1,145 @@
+@media screen and (max-width: 1300px) {
+    .head_main_center {
+        width: 45%;
+    }
+    .blocks_p {
+        font-size: 12px;
+    }
+    .service_p2 {
+        font-size: 12px;
+    }
+    .comment1 {
+        font-size: 12px;
+    }
+    .footerP {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .head_center {
+        width: 75%;
+    }
+    .mainHeadMenu {
+        width: 75%;
+    }
+    .main_center {
+        width: 75%;
+        height: 85%;
+    }
+    .head_main_h {
+        font-size: 45px;
+    }
+    .head_main_p {
+        font-size: 14px;
+    }
+    .about_p {
+        margin-top: 10px;
+    }
+    .head_button {
+        font-size: 11px;
+    }
+    .footer_center {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .head_center{
+        position: relative;
+        width: 80%;
+    }
+    .burger-menu {
+        display: flex;
+        position: absolute;
+        right: 0%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .head_menu{
+        width: 100%;
+        height: 500%;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        transform: scale(0);
+        transform-origin: top;
+    }
+    .li{
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid grey;
+        border-radius: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .li:last-child{
+        border-bottom: none;
+    }
+
+    .head_main_center {
+        width: 50%;
+    }
+    .main_center {
+        width: 80%;
+        height: 90%;
+    }
+    .footer_center {
+        width: 80%;
+    }
+    .contactsBlock {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .head_center{
+        width: 85%;
+    }
+    .head_main_center {
+        width: 55%;
+    }
+    .main_center {
+        width: 85%;
+    }
+    .service_p {
+        font-size: 14px;
+    }
+    .gallery_p {
+        font-size: 14px;
+    }
+    .teamP{
+        font-size: 14px;
+    }
+    .footer_center {
+        width: 85%;
+    }
+    .footer_center_top_left {
+        width: 70%;
+    }
+    .footer_center_top_right {
+        width: 30%;
+    }
+    .contactsBlock {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .head_center{
+        width: 95%;
+    }
+    .head_main_center {
+        width: 55%;
+    }
+    .main_center {
+        width: 95%;
+    }
+    .footer_center {
+        width: 95%;
+    }
+}
